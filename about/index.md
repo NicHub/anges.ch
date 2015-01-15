@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About the Jekyll Theme
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+title: Martine Bergamin
+excerpt: "Thérapie de l’Âme et Paroles de l’Ange"
 modified: 2014-08-08T19:44:38.564948-04:00
 image:
   feature: so-simple-sample-image-4.jpg
@@ -9,18 +9,25 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+Si vous ne savez plus que penser de votre vie, que décider, que comprendre des épreuves que vous vivez, comment résoudre vos problèmes.
 
-## So Simple Theme is all about:
+Si vous souffrez de comportements répétitifs inadéquats ou dérangeants.
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+Si vous décidez de vous défaire d’une peur ou d’une phobie, prenez du temps pour vous consacrer à vous-même et vous défaire de cela…
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+Vous êtes les bienvenus.
 
-[^1]: Example: *domain.com/category-name/post-title*
+Vous trouverez des explications sur ce site :
+
+- Déprogrammer une peur
+- Votre rencontre avec l’Ange
+- Cour d’écriture guidée
+- Régression mémorielle
+- Soins esséniens
+- Massage métamorphique
+- Libération – Anne Givaudan
+
+Vous pouvez également me contacter par téléphone au :
+
++41 79 107 54 49
+
