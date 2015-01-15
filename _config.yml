@@ -6,6 +6,8 @@ description: Si vous ne savez plus que penser de votre vie, que décider, que co
 logo: site-logo.png
 search: true
 url: http://anges.ch
+#url: http://localhost:4000
+
 
 
 # Jekyll configuration
