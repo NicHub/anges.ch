@@ -1,11 +1,11 @@
 # Site wide configuration
 
-title: Martine Bergamin — Thérapies de l’Âme — Transmission des paroles de l’Ange
+title: Martine Bergamin
 locale: fr_CH
-description: Si vous ne savez plus que penser de votre vie, que décider, que comprendre des épreuves que vous vivez, comment résoudre vos problèmes. Si vous souffrez de comportements répétitifs inadéquats ou dérangeants. Si vous décidez de vous défaire d’une peur ou d’une phobie, prenez du temps pour vous consacrer à vous-même et vous défaire de cela... Vous êtes les bienvenus.
+description: <br/><br/>Thérapies de l’Âme<br/><br/>Transmission des paroles de l’Ange
 logo: site-logo.png
-search: true
-url: http://anges.ch
+search: false
+#url: http://anges.ch
 #url: http://localhost:4000
 
 
