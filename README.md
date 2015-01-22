@@ -11,6 +11,7 @@ bundle exec jekyll serve     --port 4000
 
 ## Upload sur le serveur
 git add .
+git status
 git commit -m "update"
 git push
 
