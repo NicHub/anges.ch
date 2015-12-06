@@ -15,14 +15,14 @@
   });
 
   (function( $, window, undefined ) {
-    
+
      var bs = {
           close: $(".close-btn"),
           searchform: $(".search-form"),
           canvas: $(".js-menu-screen"),
           dothis: $('.dosearch')
       };
-    
+
     bs.dothis.on('click', function() {
       $('.search-wrapper').css({ display: "block" });
       $('body').toggleClass('no-scroll');
@@ -30,7 +30,7 @@
       bs.searchform.find('input').focus();
       bs.canvas.toggleClass('is-visible');
     });
-    
+
       bs.close.on('click', function() {
         $('.search-wrapper').removeAttr( 'style' );
         $('body').toggleClass('no-scroll');
@@ -44,7 +44,7 @@
 <!-- Asynchronous Google Analytics snippet -->
 <script>
   var _gaq = _gaq || [];
-  var pluginUrl = 
+  var pluginUrl =
  '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
   _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
   _gaq.push(['_setAccount', '{{ site.owner.google.analytics }}']);
@@ -61,3 +61,22 @@
 {% if page.comments or site.comments %}
   {% include disqus_comments.html %}
 {% endif %}
+
+
+<script>
+function targetBlank() {
+  // remove subdomain of current site's url and setup regex
+  var internal = location.host.replace( "www.", "" );
+  internal = new RegExp( internal, "i" );
+  var a = document.getElementsByTagName( 'a' ); // then, grab every link on the page
+  for( var i = 0; i < a.length; i++ ) {
+    var href = a[ i ].host; // set the host of each link
+    if( !internal.test( href ) ) { // make sure the href doesn't contain current site's host
+          a[ i ].setAttribute( 'target', '_blank' ); // if it doesn't, set attributes
+      }
+  }
+};
+targetBlank();
+</script>
+
+<script>var sharebutton_is_horizontal = false; document.write('<script src="//cdn.script.to/share6.js"></scr' + 'ipt>');</script>
