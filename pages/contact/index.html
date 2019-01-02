@@ -2,7 +2,7 @@
 layout: page
 title: "Contact"
 date: 2015-01-17
-modified:
+modified: 2019-01-02
 excerpt: "Contacter Martine Bergamin"
 image:
   feature:
@@ -12,7 +12,12 @@ image:
 
 <p>Je vous reçois en consultation à mon cabinet de CH–1473 Châtillon mardi, jeudi et vendredi.</p>
 
-<p>Les consultations peuvent se dérouler de vive voix, par téléphone ou par Skype.</p>
+{% comment %}
+Pour obfusquer le numéro dans une console JavaScript :
+"012 34 56".split("").map(e => `\&#${e.charCodeAt(0)};`).join("")
+{% endcomment %}
+
+<p>Vous pouvez prendre rendez-vous par téléphone au numéro &#48;&#55;&#57;&#32;&#49;&#48;&#55;&#32;&#53;&#52;&#32;&#52;&#57;.
 
 <p>Au plaisir de faire bientôt votre connaissance,</p>
 
